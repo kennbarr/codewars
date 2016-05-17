@@ -1,0 +1,1 @@
+bomb.cut_the_wire(eval"#{global_variables.select {|x|x.to_s.start_with?("$boom")}}")
